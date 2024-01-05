@@ -1,0 +1,6 @@
+@Boogie.Service.Product_HostAddress = http://localhost:5168
+
+GET {{Boogie.Service.Product_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -5,7 +5,13 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boogie", "Boogie\Boogie.csproj", "{12A666CA-7301-425B-B354-50FF9924C89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boogie.Gateways.API", "Boogie.Gateways.API\Boogie.Gateways.API.csproj", "{AAC8B645-3101-48D3-BCA0-FE4B13413A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boogie.Gateways.API", "Boogie.Gateways.API\Boogie.Gateways.API.csproj", "{AAC8B645-3101-48D3-BCA0-FE4B13413A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{82A0D876-530A-4721-BDAC-26759BA7D418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boogie.Service.Product", "Boogie.Service.Product\Boogie.Service.Product.csproj", "{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boogie.Service.Order", "Boogie.Service.Order\Boogie.Service.Order.csproj", "{FBA76777-A10C-420D-8A5E-69739F9F5667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,21 @@ Global
 		{AAC8B645-3101-48D3-BCA0-FE4B13413A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC8B645-3101-48D3-BCA0-FE4B13413A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC8B645-3101-48D3-BCA0-FE4B13413A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA76777-A10C-420D-8A5E-69739F9F5667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA76777-A10C-420D-8A5E-69739F9F5667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA76777-A10C-420D-8A5E-69739F9F5667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA76777-A10C-420D-8A5E-69739F9F5667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{175BF2F0-3E40-47EC-BFDD-E8A7ED929EDD} = {82A0D876-530A-4721-BDAC-26759BA7D418}
+		{FBA76777-A10C-420D-8A5E-69739F9F5667} = {82A0D876-530A-4721-BDAC-26759BA7D418}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71238FB7-1B37-4BB6-86E7-4B48AEB09FAA}
